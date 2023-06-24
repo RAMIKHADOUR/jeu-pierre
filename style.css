@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+ }
+
+ body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    flex-direction: column;
+    background-color: rgb(21, 71, 186);
+ }
+
+ section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: #fff;
+    padding:25px;
+    box-shadow: 0 0px rgb(54, 44, 44);
+    border-radius: 6px;
+ }
+
+ .choix{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+ }
+
+ .choix h4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    color:rgb(138, 135, 131)
+ }
+ img{
+    width:60px;
+    height:60px;
+    margin:20px 0px
+ }
+ button{
+    padding:5px 30px;
+    margin-top:20px;
+    border:2px solid rgb(37, 37, 228);
+    background-color: rgb(76, 76, 197);
+    color:#fff;
+    cursor:pointer;
+    border-radius: 6px; 
+    transition: 0.5s;
+ }
+
+ button:focus{
+    background-color: #fff;
+    color:rgb(37, 37, 236);
+ }
